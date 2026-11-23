@@ -1,0 +1,19 @@
+# node / vite
+web/node_modules/
+web/dist/
+web/.vite/
+*.log
+
+# terraform
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/*.tfplan
+infra/crash.log
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
